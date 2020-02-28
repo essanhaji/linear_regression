@@ -132,12 +132,14 @@ pip install sklearn
 
 *In order to check your installation you can use*
 
+- To see which version and where scikit-learn is installed
 ```
-python -m pip show scikit-learn # to see which version and where scikit-learn is installed
+python -m pip show scikit-learn
 ```
 
+- To see all packages installed in the active virtualenv (if you are using Virtual Environment)
 ```
-python -m pip freeze # to see all packages installed in the active virtualenv
+python -m pip freeze
 ```
 
 ```
