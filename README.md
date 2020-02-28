@@ -3,6 +3,12 @@
 In this assignment,I will implement linear regression and get to see it work on data. Before starting on this programming exercise, we strongly recommend watching the video lectures and completing the review questions for the associated topics [here](https://www.coursera.org/learn/machine-learning) it's for free and it will help you a lot.
 - This assignment implemented using Octave and python (from scratch) and also using python packages to make it easy to implement it in new and feature projects.
 
+
+
+
+
+
+
 ## Using Octave
 
 ### Requirement
@@ -33,9 +39,14 @@ Those files content our test for linear regression for one variable and for mult
 - *ex1 multi.m* - Octave/MATLAB script for the later parts of the exercise 
 - First run the *ex1.m* to see all iterations for one variable than you can go to *ex1_multi.m* for multi variables.
 
-## Using Octave
 
-### Requirement
+
+
+
+
+## Using Python (from Scratch)
+
+### Requirement (Tools)
 you need to install python in you computer and Jupyter notebook or jupyterLab.
 
 #### Getting started with JupyterLab
@@ -72,17 +83,76 @@ conda install -c conda-forge notebook
 ```
 pip install notebook
 ```
-Congratulations, you have installed Jupyter Notebook! To run the notebook, run the following command at the Terminal (Mac/Linux) or Command Prompt (Windows): *jupyter notebook*
 
-#### Install Requirement
 - To install the requirement packages you need to run this command.
 - Open this folder in your Terminal or Command Prompt (Windows) and run this command.
+
 ```
 pip install -r requirement.txt
 ```
 #### Test
 Congratulation.
 - now you can open the *main.ipynb* and edit it as you want
+
+
+![](using_python_scratch/animation.gif)
+
+
+## Using Python Sklearn Packages
+
+#### Install Requirement
+
+- Installation
+
+*conda*
+- If you use conda, you can install it with:
+
+1 - Install scipy:
+```
+conda install -c anaconda scikit-learn
+```
+
+2 - Install sklearn:
+```
+conda install -c anaconda scipy
+```
+
+*pip*
+- If you use pip, you can install it with:
+
+1 - Install scipy :
+```
+pip install scipy
+```
+
+2 - Install sklearn :
+```
+pip install sklearn
+```
+
+*In order to check your installation you can use*
+
+```
+python -m pip show scikit-learn # to see which version and where scikit-learn is installed
+```
+
+```
+python -m pip freeze # to see all packages installed in the active virtualenv
+```
+
+```
+python -c "import sklearn; sklearn.show_versions()"
+```
+
+- To install the requirement packages you need to run this command.
+- Open this folder in your Terminal or Command Prompt (Windows) and run this command.
+
+```
+pip install -r requirement.txt
+```
+#### Test
+Congratulation.
+- now you can open the *main.ipynb* and edit it as you want.
 
 
 ## Authors
