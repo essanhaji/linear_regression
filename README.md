@@ -1,4 +1,4 @@
-# My programming assignment Week-2
+# Linear Regression Implementation
 
 In this assignment,I will implement linear regression and get to see it work on data. Before starting on this programming exercise, we strongly recommend watching the video lectures and completing the review questions for the associated topics [here](https://www.coursera.org/learn/machine-learning) it's for free and it will help you a lot.
 - This assignment implemented using Octave and python (from scratch) and also using python packages to make it easy to implement it in new and feature projects.
